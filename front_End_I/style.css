@@ -1,0 +1,54 @@
+body	{
+	background-color: #f6f6f6;
+}
+
+header	{
+	background-color: #333;
+	padding: 1rem;
+	width: 100%;
+
+}
+
+header nav ul	{
+	display: flex;
+	justify-content: center;
+}
+
+header nav ul li a	{
+	color: #fff;
+	margin: 2rem;
+	font-size: 1.2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header nav ul li a:hover	{
+	border-bottom: 1px solid #fff;
+}
+
+img{
+	width: 100%;
+}
+
+.produtos {
+	margin: 2%;
+}
+
+.produtos__lista {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+} 
+
+.produtos__item {
+	max-width: 16rem;
+	text-align: center;
+	padding: 0.7rem;
+	margin: 1rem;
+}
+
+.produtos__informacoes {
+
+}
